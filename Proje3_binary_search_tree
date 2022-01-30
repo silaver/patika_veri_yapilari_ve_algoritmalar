@@ -1,0 +1,16 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Root'u 7 olarak alıyoruz. Kendisinden büyükleri sağa, küçükleri ise sola yazarak ilerliyoruz.
+Sıra 5'e geldiğinde karşısına çıkan sayılar 1 ve 6. 1, 5'ten küçük olduğu için sola; 6, 5'ten büyük olduğu için sağa yazılır.
+Bu mantıkla binary tree oluşturulur.
+
+              7
+            /   \
+           5     8
+          / \     \
+         1   6     9
+        / \
+       0   3
+          / \
+         2   4
+
